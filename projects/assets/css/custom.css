@@ -1,0 +1,273 @@
+@font-face {
+  font-family: helvetica-bd;
+  src: url(../fonts/HelveticaNeueLTStd-BdCn.otf);
+}
+@font-face {
+  font-family: helvetica-lt;
+  src: url("../fonts/HelveticaNeueLTStd-LtCn.otf");
+}
+@font-face {
+  font-family: arial-narrow;
+  src: url("../fonts/Arial-Narrow.ttf");
+}
+/*Ariel inicio*/
+
+p {
+  font-family: helvetica-lt, serif;
+  text-align: justify;
+}
+
+li {
+  font-family: helvetica-lt, serif;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: helvetica-bd, serif;
+}
+
+.card-header {
+  background-color: rgb(255, 199, 0);
+}
+
+.vertically-centered {
+  min-height: 77%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 77vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+/*Oculta parte de string que ultrapassa a largura do pai*/
+.custom-file-label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ------------ Navbar ------------ */
+
+.bg_menu {
+  background-color: #000;
+  font-family: helvetica-lt, serif;
+}
+
+a.navbar {
+  color: rgb(255, 199, 0);
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.navbar i {
+  width: 16px;
+  align-self: flex-start;
+}
+
+a.navbar p {
+  font-family: helvetica-bd;
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 0 0 0 16px;
+  line-height: 16pt;
+}
+
+li.navbar a.navbar:hover {
+  background-color: rgb(255, 199, 0);
+  color: #000;
+  border-radius: 10px;
+}
+
+.login li a {
+  color: rgb(255, 199, 0);
+}
+
+.login li a:hover {
+  color: #000;
+  background-color: rgb(255, 199, 0);
+  border-radius: 10px;
+}
+
+/* ------------------------------- */
+
+/* ------------ Home ------------- */
+
+.titulos {
+  padding-top: 7px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 5vh;
+  border: 2px solid;
+  color: rgb(255, 199, 0);
+}
+
+.exibir:hover i {
+  cursor: pointer;
+  color: rgb(255, 199, 0);
+}
+
+.icone_fc {
+  color: #f7d032;
+}
+.icone_fc:hover {
+  color: #339af0;
+}
+
+.icone_inst {
+  color: #f7d032;
+}
+.icone_inst:hover {
+  color: #f06595;
+}
+
+.pro {
+  border-color: #808080;
+  border-width: 2px;
+}
+
+.video {
+  height: 310px;
+}
+
+/* -------------------------------- */
+
+/* Ariel fim */
+
+/* brenu início */
+
+.anuncios {
+  background-color: rgb(255, 199, 0);
+  padding: 5px;
+  padding-top: 10px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.info-anuncio {
+  padding-top: 10px;
+}
+
+.imagem-anuncio {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.icon-card {
+  display: inline-block;
+}
+
+.icone-anuncio {
+  padding-top: 5px;
+}
+
+.texto-anuncio {
+  position: relative !important;
+  margin-bottom: 1rem !important;
+}
+
+/* brenu fim */
+
+/* Haryel Inicio*/
+
+body {
+  background-image: url(../images/bg2.png);
+}
+
+#conteudo-footer {
+  padding-top: 12px;
+  font-size: 16px;
+  color: rgb(255, 199, 0);
+}
+
+#form-contato {
+  padding: 13px 0 0 0;
+}
+
+#icon-facebook {
+  padding: 16px 5px 2px 0;
+  font-size: 20px;
+}
+
+#icon-insta {
+  padding: 5px 5px 2px 0;
+  font-size: 21px;
+}
+
+.linha-vertical {
+  margin-left: 40px;
+  height: 219px; /*Altura da linha*/
+  border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  border: solid;
+}
+
+.patrocinadores {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 2559px) {
+  .banner {
+    display: none;
+  }
+  .banner1 {
+    display: inherit;
+    height: 600px;
+  }
+}
+
+.botoes-hosp {
+  margin: 30px 0 20px 0;
+  background-color: rgb(255, 199, 0);
+  padding: 7px;
+  flex-wrap: nowrap;
+}
+
+.secnd-texto-collapse {
+  padding-top: 15px;
+  margin-bottom: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  #icon-insta {
+    float: right;
+    padding-top: 10px;
+  }
+  #icon-facebook {
+    float: right;
+    padding-top: 12px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .video {
+    height: 210px;
+  }
+
+  .login {
+    padding-top: 8px;
+  }
+
+  .im {
+    margin-top: 4vh;
+  }
+  .menu-mob i {
+    width: 80vw;
+  }
+
+  #icon-insta {
+    margin-top: 0.3vh;
+  }
+}
+
+.slider-cr {
+  margin-top: -15px;
+}
+/*Haryel Fim*/
