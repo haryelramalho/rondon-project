@@ -91,11 +91,18 @@ $ source rondon.sql
 
 Enjoy!
 
-The application is located on http://localhost:80/ and we created initial admin credentials, but you may create you own account if it's your desire. The credentials are:
+The application is located on http://localhost:80/ and we created initial user and admin credentials, but you may create you own account if it's your desire. The credentials are:
 
+User:
 ```
 email: user@mail.com
 password: pass
+```
+
+Admin:
+```
+email: admin
+password: admin
 ```
 
 # :handshake: Authors
